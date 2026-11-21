@@ -1,0 +1,49 @@
+{
+  "name": "icoinuser",
+  "version": "0.0.1",
+  "description": "icoinuser",
+  "author": "admin <admin@yomeen.com>",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@quasar/extras": "1.5.1",
+    "ajv": "6.12.0",
+    "apexcharts": "3.35.2",
+    "axios": "0.18.1",
+    "core-util-is": "1.0.2",
+    "downloadjs": "1.4.7",
+    "fibers": "4.0.2",
+    "firebase": "7.8.2",
+    "google-maps": "4.3.3",
+    "leaflet": "1.7.1",
+    "numeral": "2.0.6",
+    "papaparse": "5.1.1",
+    "pdfkit": "0.13.0",
+    "qr-code-with-logo": "1.1.0",
+    "qrcode": "1.5.0",
+    "quasar": "1.9.3",
+    "sass": "1.26.3",
+    "vue-apexcharts": "1.6.2",
+    "vue-html-to-paper": "1.3.1",
+    "vue-i18n": "8.15.3",
+    "vue-qrcode-reader": "2.3.14",
+    "vue2-leaflet": "2.6.0",
+    "@quasar/babel-preset-app": "1.1.9",
+    "compression": "^1.0.0",
+    "express": "^4.0.0",
+    "lru-cache": "5.1.1",
+    "vue": "2.6.11",
+    "vue-server-renderer": "2.6.11",
+    "vue-router": "3.1.5",
+    "vuex": "3.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": "6.14.16"
+  },
+  "quasar": {
+    "ssr": true
+  }
+}

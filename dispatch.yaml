@@ -1,0 +1,58 @@
+dispatch:
+
+  # api service serves simple hostname request.
+  - url: "api.yomeen.com/*"
+    service: api
+
+  # icoi service serves simple hostname request.
+  - url: "icoin.yomeen.com/*"
+    service: icoin
+
+  # icoinuser service serves simple hostname request.
+  - url: "icoinuser.yomeen.com/*"
+    service: icoinuser
+
+  - url: "icoinstore.yomeen.com/*"
+    service: icoinstore
+
+  - url: "admin.yomeen.com/*"
+    service: admin
+
+  - url: "payment.yomeen.com/*"
+    service: payment
+
+  - url: "order.yomeen.com/*"
+    service: order
+
+  - url: "kitchen.yomeen.com/*"
+    service: kitchen
+
+  - url: "yvm-admin.yomeen.com/*"
+    service: yvm-admin
+
+  - url: "yvm-rep.yomeen.com/*"
+    service: yvm-rep
+
+  - url: "api-t.yomeen.com/*"
+    service: api-t
+
+  - url: "admin-t.yomeen.com/*"
+    service: admin-t
+
+  - url: "payment-t.yomeen.com/*"
+    service: payment-t
+
+  - url: "order-t.yomeen.com/*"
+    service: order-t
+
+  - url: "kitchen-t.yomeen.com/*"
+    service: kitchen-t
+
+  - url: "arbea-admin.yomeen.com/*"
+    service: arbea-admin
+
+  - url: "arbea-client.yomeen.com/*"
+    service: arbea-client
+
+  - url: "*.yomeen.com/"
+    service: default
